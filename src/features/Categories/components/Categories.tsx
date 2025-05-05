@@ -1,4 +1,4 @@
-import { SideBar } from "../components/SideBar"
+import { SideBar } from "../../../shared/components/SideBar"
 import { Plus } from "lucide-react"
 
 export default function Categories() {

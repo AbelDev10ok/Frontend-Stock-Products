@@ -1,9 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { SideBar } from "../components/SideBar"
-import { MonthlyChart } from "../components/MonthlyChart"
-import { CategoryChart } from "../components/CategoryChart"
+import { SideBar } from "../../../shared/components/SideBar"
+import { MonthlyChart } from "../../Dashboard/components/MonthlyChart"
+import { CategoryChart } from "../../Dashboard/components/CategoryChart"
 
 export default function Reportes() {
   const [activeTab, setActiveTab] = useState("ventas")

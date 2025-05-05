@@ -1,9 +1,11 @@
 import { User, Package, ShoppingCart } from "lucide-react"
-import { SideBar } from "../components/SideBar"
-import { MonthlyChart } from "../components/MonthlyChart"
-import { CategoryChart } from "../components/CategoryChart"
+import { SideBar } from "../../../shared/components/SideBar"
+import { MonthlyChart } from "./MonthlyChart"
+import { CategoryChart } from "./CategoryChart"
+
 
 export default function Dashboard() {
+
   return (
     <div className="flex h-screen bg-black text-white">
       <SideBar />

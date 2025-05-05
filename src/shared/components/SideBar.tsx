@@ -13,7 +13,7 @@ export function SideBar() {
       <nav className="flex-1">
         <div className="px-3">
           <div className="space-y-1">
-            <NavItem href="/" icon={<LayoutDashboard size={20} />} label="Dashboard" active={pathname === "/"} />
+            <NavItem href="/dashboard" icon={<LayoutDashboard size={20} />} label="Dashboard" active={pathname === "/"} />
             <NavItem
               href="/productos"
               icon={<Package size={20} />}
